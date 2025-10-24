@@ -36,16 +36,19 @@ It uses Machine Learning (with Scikit-learn and TF-IDF vectorization) to predict
 **🚀 How to Run
 
 1️⃣ Clone the Repository**
+
 ``bash
 git clone https://github.com/<your-username>/<repo-name>.git
 cd <repo-name>``
 
 **2️⃣ Create and Activate Virtual Environment**
+
 ``bash
 python -m venv venv
 venv\Scripts\activate    # On Windows
 source venv/bin/activate # On Mac/Linux
 ``
+
 **3️⃣ Install Dependencies**
 ``
 pip install -r requirements.txt
@@ -54,14 +57,17 @@ pip install -r requirements.txt
 (If you don’t have a requirements.txt, generate one using pip freeze > requirements.txt.)
 
 **4️⃣ Run the App**
+
 ``
 python app.py
 ``
 
 Then open the browser and go to:
+
 ``
 http://127.0.0.1:5000
 ``
+
 **🧠 Model Details**
 
 Vectorizer: TF-IDF (tfidf.pkl)
